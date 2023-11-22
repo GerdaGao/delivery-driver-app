@@ -1,0 +1,21 @@
+.parcel-locker {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between rectangles */
+  }
+  
+  .small-rectangle {
+    height: 100px; /* Adjust the height of each rectangle */
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  /* Add styling for the floating effect if needed */
+  .small-rectangle:hover {
+    /* Add your styles for the floating effect */
+    background-color: #e0e0e0;
+  }
+  

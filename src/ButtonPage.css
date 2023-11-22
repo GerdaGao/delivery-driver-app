@@ -1,0 +1,27 @@
+/* src/ButtonPage.css */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pick-up-button,
+  .put-in-button {
+    /* Updated styles for the buttons */
+    padding: 20px;
+    font-size: 18px;
+    background-color: orange; /* Set the base color to blue */
+    color: white; /* Set the text color to red */
+    border: none;
+    cursor: pointer;
+    /* Add any other styles as needed */
+    margin: 0 250px; 
+  }
+  
+  .pick-up-button:hover,
+  .put-in-button:hover {
+    /* Styles for the buttons on hover if needed */
+    background-color: lightgreen; /* Set the hover color to a darker shade of blue */
+    /* Add any other hover styles as needed */
+  }
+  
